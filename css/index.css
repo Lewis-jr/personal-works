@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* index css */
+.fs{height: 480px;
+    /*background-color: #0066FF;*/
+    position: relative;}
+.fs .fs-inner{height: 480px;
+            /*background-color: #f10515;*/
+            position: relative;
+            z-index: 1;}
+.fs .ad{width: 100%;
+        height: 100%;
+        background: url("../images/bg.png") no-repeat top center;
+        position: absolute;
+        top: 0;
+        left: 0;}
+.ad a{display: block;
+    height: 100%;
+    width: 100%;}
+.inner-col1{width: 190px;
+            height: 465px;
+            background: #6e6568;
+            float: left;
+            padding-top: 15px;}
+.inner-col1 li{height: 28px;
+            padding-left: 18px;
+            line-height: 28px;}
+.inner-col1 a{font-size:14px;
+            color: #FFFFFF;}
+.inner-col1 span{font-size: 12px;
+                color: #FFFFFF;}
+.inner-col1 li:hover{background-color: #999395;}
+.inner-col1 a:hover{color: #e33333;}
+.inner-col2{width: 790px;
+            height: 480px;
+            /*background: #0066FF;*/
+            float: left;
+            margin-left: 10px;}
+.inner-hd{height: 340px;
+             background-color: aqua;
+             margin-bottom: 10px;
+             position: relative;}
+.inner-bd{height: 130px;
+            /*background: #f10215;*/
+}
+.inner-hd >a{width: 30px;
+            height: 40px;
+            display: block;
+            background: rgba(0,0,0,.3);
+            position: absolute;
+            top: 50%;
+            margin-top: -20px;
+            text-align: center;
+            line-height: 40px;
+            font-size: 18px;
+            color: #FFFFFF;
+}
+.inner-hd .left{left: 0;}
+.inner-hd .right{right: 0;}
+.inner-hd ol{width: 180px;
+            height: 20px;
+            position: absolute;
+            left: 50%;
+            bottom: 20px;
+            margin-left: -90px;
+            background: rgba(255,255,255,.1);
+            border-radius: 10px;}
+.inner-hd ol li{width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                margin: 4px 5px;
+                float: left;
+                background-color: #FFFFFF;
+                cursor: pointer;}
+.active{background-color: #f10215 !important;}
+.inner-bd div{background: url("../images/r.jpg") no-repeat ;
+            height: 130px;
+            width: 390px;
+            float: left;
+}
+.inner-bd div a{display: block;
+                width: 100%;
+                height: 100%;}
+.inner-bd div.second{background: url("../images/l.jpg") no-repeat;
+            margin-left: 10px;
+}
+
+
+.inner-col3{width: 190px;
+            height: 480px;
+            background: #ffff00;
+            float: right;}
+
